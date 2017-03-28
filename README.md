@@ -27,7 +27,7 @@
 
 
 	  ```js
-	  var friends = [
+	  const friends = [
 	    "Moe",
 	    "Jane",
 	    "Emma",
@@ -62,7 +62,7 @@
 4. Stretch: We have two lists of friends below. Use array methods to combine them into one alphabetically-sorted list.
 
 	  ```js
-	  var myFriends = [
+	  const myFriends = [
 	    "Rickon",
 	    "Meera",
 	    "Hodor",
@@ -72,7 +72,7 @@
 	    "Maester"
 	  ];
 
-	  var yourFriends = [
+	  const yourFriends = [
 	    "Bilbo",
 	    "Boromir",
 	    "Elrond",
@@ -92,7 +92,7 @@
 	  <details>
 	    <summary>answer</summary>
 	    ```js
-	    var allFriends = myFriends.concat(yourFriends);
+	    const allFriends = myFriends.concat(yourFriends);
 	    allFriends.sort();
 	    ```
 	  </details>
@@ -109,7 +109,7 @@
 	  <details>
 	    <summary>sample answer</summary>
 	    ```js
-	    var jd = {
+	    const jd = {
 	      firstName: "John",
 	      lastName: "Doe",
 	      age: 36,
@@ -141,7 +141,7 @@
 Copy the following `clubs` variable into your console.
 
 ```js
-var clubs =  [
+const clubs =  [
 	{
     	name: 'Yearbook',
         students: [
@@ -231,7 +231,7 @@ var clubs =  [
 1. Create an object literal representing a student with your name, and assign it to a variable.
 	  <details>
 	    <summary>answer</summary>
-	    `var me = { first: 'Bob', last: 'Loblaw' };`
+	    `const me = { first: 'Bob', last: 'Loblaw' };`
 	  </details>
 
 
@@ -252,7 +252,7 @@ var clubs =  [
 	  <details>
 	    <summary>answer</summary>
 	    ```js
-	    var lawClub = {
+	    const lawClub = {
 		name: 'Legal Eagles',
 		students: [],
 		teacher: 'Abby Fuentes'
